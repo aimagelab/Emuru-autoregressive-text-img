@@ -1,0 +1,15 @@
+{
+  "num_writers": 115961,
+  "block_out_channels": [
+    16,
+    32,
+    64,
+    128,
+    128,
+    128
+  ],
+  "in_channels": 1,
+  "latent_channels": 256,
+  "norm_num_groups": 16,
+  "encoder_dropout": 0.1
+}

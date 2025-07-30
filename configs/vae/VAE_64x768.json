@@ -1,0 +1,27 @@
+{
+  "act_fn": "silu",
+  "block_out_channels": [
+    32,
+    64,
+    128,
+    256
+  ],
+  "down_block_types": [
+    "DownEncoderBlock2D",
+    "DownEncoderBlock2D",
+    "DownEncoderBlock2D",
+    "DownEncoderBlock2D"
+  ],
+  "in_channels": 3,
+  "latent_channels": 1,
+  "layers_per_block": 2,
+  "norm_num_groups": 32,
+  "out_channels": 1,
+  "up_block_types": [
+    "UpDecoderBlock2D",
+    "UpDecoderBlock2D",
+    "UpDecoderBlock2D",
+    "UpDecoderBlock2D"
+  ],
+  "sample_size": 768
+}

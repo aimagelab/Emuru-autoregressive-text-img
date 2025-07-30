@@ -1,0 +1,27 @@
+{
+  "alphabet_size": 167,
+  "act_fn": "silu",
+  "block_out_channels": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "down_block_types": [
+    "DownEncoderBlock2D",
+    "DownEncoderBlock2D",
+    "DownEncoderBlock2D",
+    "DownEncoderBlock2D"
+  ],
+  "in_channels": 1,
+  "latent_channels": 128,
+  "d_model": 128,
+  "layers_per_block": 2,
+  "norm_num_groups": 16,
+  "encoder_dropout": 0.1,
+  "use_tgt_pe": true,
+  "use_mem_pe": true,
+  "htr_dropout": 0.1,
+  "num_encoder_layers": 2,
+  "num_decoder_layers": 4
+}

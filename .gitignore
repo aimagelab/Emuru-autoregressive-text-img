@@ -205,3 +205,14 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# wandb
+wandb/
+
+# Project-wise
+pretrained_models/
+results_wid/
+results_t5/
+results_htr/
+results_vae/
+HWD/
