@@ -87,4 +87,6 @@ yarl==1.20.1
 zipp==3.23.0
 jiwer==4.0.0
 gudhi==3.11.0
+wandb==0.21.0
+webdataset==1.0.2
 git+https://github.com/aimagelab/HWD.git
